@@ -4,12 +4,17 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hello reader! I am Julien Gomez a student and freelancer in the IT field. Living in Belgium, I did study computer science at Université catholique de Louvain.
 
-### More Information
+## What to expect on this blog
 
-A place to include any other types of information that you'd like to include about yourself.
+Anything related to IT and studying. I will post links to interesting resources. I will write on stuff that I'm interested in and I will share my experiences.
+
+
+## Contributions
+
+You see a typo? You have a request? This blog is open source on [Github](https://github.com/derwaan/blog). Fell free to create a pull request or an issue.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+You can use the buttons below to contact me. Don't hesite to join me on Twitter or by email.
