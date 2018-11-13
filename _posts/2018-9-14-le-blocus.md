@@ -3,8 +3,6 @@ layout: post
 title: Le blocus
 ---
 
-> This article need to be translated into english and is quite long! But I encourage you to read it if you do speak french and want a boost in your studying skill.
-
 Pour certains étudiants qui ne s’en étaient pas encore rendu compte, nous en sommes en plein blocus. L’une de ces périodes de l’année où les réseaux sociaux se remplissent de lamentations et de messages de motivation de la part d’étudiants plongés dans leurs bouquins. Mais peut-être ne connaissez-vous pas le terme de « blocus ».
 
 ## Le blocus, qu’est-ce que c’est
