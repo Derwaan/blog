@@ -48,6 +48,7 @@ languages: ["en", "fr"]
 exclude_from_localizations: ["javascript", "images", "css"]
 plugins:
   - jekyll-multiple-languages-plugin
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
