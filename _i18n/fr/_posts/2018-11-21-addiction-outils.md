@@ -17,4 +17,3 @@ Comme éditeur j’ai décider d’utiliser Visual Studio Code. D’abord pour �
 Après maintenant quelques jours de travail avec ses "simples" outils, je dois dire que je me suis senti plus concentré lors de mes heures de travail qu’avant. Je pense qu’on peut directement associer cette désintoxication au minimalisme qui est un mouvement de vie que j’apprécie beaucoup. Fini les prises de tête sur les fichiers de configurations sans fin. Fini de réfléchir sur quel plugin ou quel raccourci clavier je vais pouvoir utiliser pour optimiser mon travail.
 
 Au final, je dois avouer que Vim me manque... Un jour peut-être je craquerais et je retournerais vers lui !
-​

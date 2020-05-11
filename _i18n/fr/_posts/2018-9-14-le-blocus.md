@@ -59,7 +59,7 @@ _*(J’y reviendrai plus tard)_
 
 ### L'étude
 
-> *Parfait, j’ai tout ce qu’il me faut pour étudier ! Un planning en béton ainsi que tous les documents possibles et imaginables. Mais il ne me reste plus qu’à étudier… Aaaah mais j’ai tellement pas de motivation :-/*
+> *Parfait, j’ai tout ce qu’il me faut pour étudier ! Un planning en béton ainsi que tous les documents possibles et imaginables. Mais il ne me reste plus qu’à étudier… Aaaah mais j’ai tellement pas de motivation*
 
 La motivation c’est surement l’un des éléments clé le plus dur à obtenir. Mais une fois qu’on a cette motivation, le reste semble déjà beaucoup plus simple. J’ai cherché pas mal de techniques pour m’échapper de la procrastination et lu/vu une tonne de méthodes permettant de se motiver.
 
