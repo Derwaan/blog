@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+       – Derwaan – Embedded Software Engineer, Freelancer and IoT geek
+    </title>
+
+    <meta charset="utf-8" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+/>
+
+
+<meta name="description" content="In this article, we are going to create a virtual device using v4l2loopback on which we are going to write frames with OpenCV.
+" />
+<meta property="og:description" content="In this article, we are going to create a virtual device using v4l2loopback on which we are going to write frames with OpenCV.
+" />
+
+<meta name="author" content="Derwaan" />
+
+
+<meta property="og:title" content="How to emulate a webcam stream with Python3, OpenCV and v4l2loopback" />
+<meta property="twitter:title" content="How to emulate a webcam stream with Python3, OpenCV and v4l2loopback" />
+
+
+<link rel="shortcut icon" type="image/png" href="favicon.ico" />
+
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/blog/style.css"
+    />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Derwaan - Embedded Software Engineer, Freelancer and IoT geek"
+      href="/blog/feed.xml"
+    />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="/blog/" class="site-avatar"
+            ><img src="https://gravatar.com/avatar/beac6fcd370affb49ecfd3073f9f9b3b"
+          /></a>
+
+          <div class="site-info">
+            <h1 class="site-name">
+              <a href="/blog/">Derwaan</a>
+            </h1>
+            <p class="site-description">Embedded Software Engineer, Freelancer and IoT geek</p>
+          </div>
+
+          <nav>
+            <a href="/blog/">Blog</a>
+            <a href="/blog/about">About</a>
+             
+            <a href="/blog/fr/2020/05/12/v4l2loopback-opencv.html">🇫🇷</a>
+            
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      <article class="post">
+  <h1>How to emulate a webcam stream with Python3, OpenCV and v4l2loopback</h1>
+
+  <div class="entry">
+    <p>In this article, we are going to create a virtual device using v4l2loopback on which we are going to write frames with OpenCV.</p>
+
+<p>This article assumes that Python3, pip3 and OpenCV are installed.
+The techniques and tools presented in this article were tested on Ubuntu 18.04.</p>
+
+<h2 id="context">Context</h2>
+
+<p>At Nalys, a previous Qt application was created during a project. This application reads the video device of a tablet and performs some video processing algorithms with OpenCV. This <a href="https://nalys-taas-projects.gitlab.io/internal/taas_blog/post/qt_app_led_detection/">blog post</a> describes in more depth the application. But to test the application, you would need to have a video device plugged to your computer. In order to remove this constraint, a python script was created. This script emulates a video device that the Qt application will read and use for the video processing.</p>
+
+<p>Before writing the script, some research were necessary in order to find the correct tools for such task.</p>
+
+<h3 id="v4l2-and-v4l2loopback">v4l2 and v4l2loopback</h3>
+
+<p>V4l2 or “Video4Linux” is an API that allows to capture video device. V4l2loopback is a kernel module not installed by default that can create virtual video devices (or “dummy devices”) that any v4l2 application would be able to read.</p>
+
+<p>For our case, v4l2loopback will be used to create a dummy device that the Qt application will be able to read. But in order to write frame to this virtual device, we need something else.</p>
+
+<h3 id="opencv">OpenCV</h3>
+
+<p>OpenCV is a famous library for video processing. In our script, we will only use a small portion of the capabilities of this library to create frame for our v4l2loopback device.</p>
+
+<h2 id="preparations">Preparations</h2>
+
+<p>Before writing our Python3 script, we need to make some preparations.
+In order for our script to write frames on a virtual device, we will need to install and use the v4l2loopback kernel module that creates such devices.</p>
+
+<h3 id="install-v4l2-and-v4l2loopback">Install v4l2 and v4l2loopback</h3>
+
+<p>In order to create a dummy device that will be used by OpenCV to display the frames, we will need to install <a href="v4l2loopback">https://github.com/umlaeute/v4l2loopback</a>.</p>
+
+<h4 id="with-a-package-manager">With a package manager</h4>
+
+<p>A Debian package is available for Debian-based distribution.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>apt <span class="nb">install </span>v4l2loopback-dkms
+</code></pre></div></div>
+
+<h4 id="from-source">From source</h4>
+
+<p>With Ubuntu 18.04, there can be some issues with this package and we might want to install v4l2loopback from source.
+To do so, we will need to have the latest kernel headers for our system:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>apt <span class="nb">install </span>linux-headers-<span class="si">$(</span><span class="nb">uname</span> <span class="nt">-a</span><span class="si">)</span>
+</code></pre></div></div>
+
+<p>After that, we can clone the v4l2loopback <a href="repository">https://github.com/umlaeute/v4l2loopback</a> and install the kernel module from the source:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git clone https://github.com/umlaeute/v4l2loopback
+<span class="nv">$ </span><span class="nb">cd </span>v4l2loopback
+<span class="nv">$ </span>make
+<span class="nv">$ </span><span class="nb">sudo </span>make <span class="nb">install</span>
+<span class="nv">$ </span><span class="nb">sudo </span>depmod <span class="nt">-a</span>
+</code></pre></div></div>
+
+<p>We might need to install <code class="highlighter-rouge">v4l-utils</code> if it is not present in our system yet.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>apt <span class="nb">install </span>v4l-utils
+</code></pre></div></div>
+
+<p>In order to use v4l2 in Python3, we will need to install the package <code class="highlighter-rouge">v4l2</code> with pip3.
+But, currently this package has a bug with Python3 and it need to be installed from a specific commit that fixes the issue.
+In order to install the package with pip3, we will also need to have <code class="highlighter-rouge">bzr</code> installed.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>apt <span class="nb">install </span>bzr
+<span class="nv">$ </span>pip3 <span class="nb">install</span> <span class="nt">-e</span> bzr+lp:~jgottula/python-v4l2/fix-for-bug-1664158
+</code></pre></div></div>
+
+<h3 id="creating-a-dummy-device">Creating a dummy device</h3>
+
+<p>Now that we have all the requirements installed, it is time to create our first dummy device.</p>
+
+<p>Using v4l2loopback kernel module, we can add our freshly installed kernel module:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>modprobe v4l2loopback
+</code></pre></div></div>
+
+<p>With v4l-utils, we can check if the virtual video device is created:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>v4l2-ctl <span class="nt">--list-device</span>
+</code></pre></div></div>
+
+<p>We should see a dummy device in the list.<br />
+We will consider <code class="highlighter-rouge">/dev/video0</code> as the virtual device created by v4l2loopback for the next part of this article.</p>
+
+<h2 id="python-script">Python script</h2>
+
+<p>Now that every things is set up, let’s move on to the actual script.</p>
+
+<h3 id="opening-the-virtual-device">Opening the virtual device</h3>
+<p>Before writing our frames to the virtual device, we must create a v4l2 format.
+This format will be then written into the device with ioctl.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">sys</span><span class="p">,</span> <span class="n">fcntl</span>
+<span class="kn">from</span> <span class="nn">v4l2</span> <span class="kn">import</span> <span class="o">*</span>
+
+<span class="n">width</span> <span class="o">=</span> <span class="mi">1920</span>
+<span class="n">height</span> <span class="o">=</span> <span class="mi">1080</span>
+<span class="n">device</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s">'/dev/video0'</span><span class="p">,</span> <span class="s">'wb'</span><span class="p">)</span>
+
+<span class="c1"># Setup format
+</span><span class="n">fmt</span>                      <span class="o">=</span> <span class="n">v4l2_format</span><span class="p">()</span>
+<span class="n">fmt</span><span class="p">.</span><span class="nb">type</span>                 <span class="o">=</span> <span class="n">V4L2_BUF_TYPE_VIDEO_OUTPUT</span>
+<span class="n">fmt</span><span class="p">.</span><span class="n">fmt</span><span class="p">.</span><span class="n">pix</span><span class="p">.</span><span class="n">field</span>        <span class="o">=</span> <span class="n">V4L2_FIELD_NONE</span>
+<span class="n">fmt</span><span class="p">.</span><span class="n">fmt</span><span class="p">.</span><span class="n">pix</span><span class="p">.</span><span class="n">pixelformat</span>  <span class="o">=</span> <span class="n">V4L2_PIX_FMT_BGR24</span>
+<span class="n">fmt</span><span class="p">.</span><span class="n">fmt</span><span class="p">.</span><span class="n">pix</span><span class="p">.</span><span class="n">width</span>        <span class="o">=</span> <span class="n">width</span>
+<span class="n">fmt</span><span class="p">.</span><span class="n">fmt</span><span class="p">.</span><span class="n">pix</span><span class="p">.</span><span class="n">height</span>       <span class="o">=</span> <span class="n">height</span>
+<span class="n">fmt</span><span class="p">.</span><span class="n">fmt</span><span class="p">.</span><span class="n">pix</span><span class="p">.</span><span class="n">bytesperline</span> <span class="o">=</span> <span class="n">width</span> <span class="o">*</span> <span class="mi">3</span>
+<span class="n">fmt</span><span class="p">.</span><span class="n">fmt</span><span class="p">.</span><span class="n">pix</span><span class="p">.</span><span class="n">sizeimage</span>    <span class="o">=</span> <span class="n">width</span> <span class="o">*</span> <span class="n">height</span> <span class="o">*</span> <span class="mi">3</span>
+
+<span class="c1"># Writing the format to the virtual device
+</span><span class="k">if</span> <span class="n">fcntl</span><span class="p">.</span><span class="n">ioctl</span><span class="p">(</span><span class="n">device</span><span class="p">,</span> <span class="n">VIDIOC_S_FMT</span><span class="p">,</span> <span class="n">fmt</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span> <span class="k">print</span><span class="p">(</span><span class="s">"Running on {}"</span><span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="n">device_name</span><span class="p">))</span>
+<span class="k">else</span><span class="p">:</span> <span class="n">sys</span><span class="p">.</span><span class="nb">exit</span><span class="p">()</span>
+</code></pre></div></div>
+
+<h3 id="generate-a-frame">Generate a frame</h3>
+<p>Once we have the device open with the correct format, we can generate frames with numpy and OpenCV.
+We use an infinite loop to keep sending new frames to the dummy device.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">cv2</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
+
+<span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+  <span class="n">frame</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">zeros</span><span class="p">((</span><span class="n">height</span><span class="p">,</span> <span class="n">width</span><span class="p">,</span> <span class="mi">3</span><span class="p">),</span> <span class="n">np</span><span class="p">.</span><span class="n">uint8</span><span class="p">)</span> <span class="c1"># Generate a black frame
+</span>  <span class="n">cv2</span><span class="p">.</span><span class="n">circle</span><span class="p">(</span><span class="n">frame</span><span class="p">,</span> <span class="p">(</span><span class="n">width</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span> <span class="n">height</span> <span class="o">/</span> <span class="mi">2</span><span class="p">),</span> <span class="mi">10</span><span class="p">,</span> <span class="p">(</span><span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">),</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="c1"># Filled circle
+</span>  <span class="n">device</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="n">frame</span><span class="p">)</span> <span class="c1"># Write the frame to the virtual device
+</span></code></pre></div></div>
+
+<h2 id="reading-our-virtual-device">Reading our virtual device</h2>
+
+<p>We can now run our script and use VLC to check if our virtual device is displaying our frames.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>python3 our_script.py &amp;
+<span class="nv">$ </span>vlc v4l2:///dev/video0
+</code></pre></div></div>
+
+<h2 id="clean-it-up">Clean it up</h2>
+
+<p>To remove the virtual device, you can simply remove the kernel module:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>rmmod v4l2loopback
+</code></pre></div></div>
+
+
+  </div>
+
+  <div class="date">
+    Written on May 12, 2020
+  </div>
+
+  
+</article>
+
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          
+<a href="mailto:derwaan@gmail.com"><i class="svg-icon email"></i></a>
+
+
+<a href="https://github.com/derwaan/blog"><i class="svg-icon github"></i></a>
+<a href="https://instagram.com/derwaan"><i class="svg-icon instagram"></i></a>
+<a href="https://www.linkedin.com/in/derwaan"><i class="svg-icon linkedin"></i></a>
+
+<a href="/blog/feed.xml"><i class="svg-icon rss"></i></a>
+<a href="https://www.twitter.com/derwaan"><i class="svg-icon twitter"></i></a>
+
+<a href="https://youtube.com/channel/UCiGUV0DHTGRDXiIq41g6_wA"><i class="svg-icon youtube"></i></a>
+
+        </footer>
+      </div>
+    </div>
+
+    
+
+  </body>
+</html>
