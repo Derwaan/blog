@@ -1,4 +1,89 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://derwaan.com/blog/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://derwaan.com/blog/blog/" rel="alternate" type="text/html" hreflang="en" /><updated>2020-05-12T11:43:39+02:00</updated><id>https://derwaan.com/blog/blog/feed.xml</id><title type="html">Derwaan</title><subtitle>Embedded Software Engineer, Freelancer and IoT geek</subtitle><entry><title type="html">How to emulate a webcam stream with Python3, OpenCV and v4l2loopback</title><link href="https://derwaan.com/blog/blog/2020/05/12/v4l2loopback-opencv.html" rel="alternate" type="text/html" title="How to emulate a webcam stream with Python3, OpenCV and v4l2loopback" /><published>2020-05-12T00:00:00+02:00</published><updated>2020-05-12T00:00:00+02:00</updated><id>https://derwaan.com/blog/blog/2020/05/12/v4l2loopback-opencv</id><content type="html" xml:base="https://derwaan.com/blog/blog/2020/05/12/v4l2loopback-opencv.html">&lt;p&gt;In this article, we are going to create a virtual device using v4l2loopback on which we are going to write frames with OpenCV.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://derwaan.com/blog/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://derwaan.com/blog/blog/" rel="alternate" type="text/html" hreflang="en" /><updated>2020-05-14T15:37:27+02:00</updated><id>https://derwaan.com/blog/blog/feed.xml</id><title type="html">Derwaan</title><subtitle>Embedded Software Engineer, Freelancer and IoT geek</subtitle><entry><title type="html">My note-taking experiment - Part 1</title><link href="https://derwaan.com/blog/blog/2020/05/14/note-taking-experiment-part-1.html" rel="alternate" type="text/html" title="My note-taking experiment - Part 1" /><published>2020-05-14T00:00:00+02:00</published><updated>2020-05-14T00:00:00+02:00</updated><id>https://derwaan.com/blog/blog/2020/05/14/note-taking-experiment-part-1</id><content type="html" xml:base="https://derwaan.com/blog/blog/2020/05/14/note-taking-experiment-part-1.html">&lt;p&gt;During my studies, I kept looking a the &lt;em&gt;perfect&lt;/em&gt; note-taking method.
+I have tried a lot of them (mind-maps, Cornell, flash-card, …) but never have I been convinced by one of them.&lt;/p&gt;
+
+&lt;p&gt;Now that I have left the University (for the moment?), I have this urge to take note on everything but whitout the correct framework.&lt;/p&gt;
+
+&lt;p&gt;Let me explain.
+At the University, the framework was simple: take notes during the lectures, study those notes, and succeed at the exams (the last step might depends from time to time).
+But now that the University time is over, I find myself with a bunch of notes that I don’t know how to organize.
+I take notes during meetings, I take notes when I am facing a difficult challenge at work, I take notes when I have an amazing idea for a start-up, I take notes of interesting books, etc…&lt;/p&gt;
+
+&lt;p&gt;I have those notes that if I don’t do anything with them, they will never be used (bye start-up idea worth millions of dollars).&lt;/p&gt;
+
+&lt;p&gt;So, I have decided to put myself into a small experiment in order to find the perfect note-taking workflow.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;tl;dr&lt;/strong&gt; My note-taking system have three steps (1. Capture ideas into a notebook; 2. Review et categorize those notes; 3. Create something from those notes). I will write more posts that will describe my follow-ups on this experiment.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;an-experimental-system&quot;&gt;An experimental system&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/images/habit-of-taking-notes.jpg&quot; alt=&quot;Habit of taking notes&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This note-taking system is divided into three steps.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;First, capture the ideas (into a notebook or with Notability)&lt;/li&gt;
+  &lt;li&gt;Second, review those notes in order to better understand them and filter out the bad ones&lt;/li&gt;
+  &lt;li&gt;Finally, create something from those notes. Without this last step, all this process is irrelevant.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;1a-taking-notes-in-a-notebook&quot;&gt;1a. Taking notes in a notebook&lt;/h2&gt;
+
+&lt;p&gt;I have been using a Bullet Journal for the last months.
+I write down in this notebook &lt;em&gt;almost&lt;/em&gt; everything: ideas, meetings, tasks, …
+I also keep track of interesting chat I had during the day.
+After the work, I log every piece of information that might be usefull for later.
+My goal with this journal is not have something beautiful to show on Instagram.
+No, this journal is full of notes that only make sense for me.
+But at least, I know that everything I need is in this notebook.
+No need to trust my brain and its memory to remember what was said during the meeting or what was the start-up idea I had this morning.&lt;/p&gt;
+
+&lt;p&gt;Sometimes, when I want to go deeper with an idea, I take a full page in my notebook to draw, write a mind-map or any other way that helps me.&lt;/p&gt;
+
+&lt;h2 id=&quot;1b-using-notability&quot;&gt;1b. Using Notability&lt;/h2&gt;
+
+&lt;p&gt;When I am reading a book, I directly take note in it (if I have it physically) or I create highlights with my Kindle.
+Doing this, help me be focus on the reading.
+Once the book is done, I create a summary with the main ideas.
+I don’t just transcribe them verbatim.
+I write them with my own words in order for me to better grasp the notions behind the book.&lt;/p&gt;
+
+&lt;p&gt;Those notes, I could just use my Bullet Journal to take them.
+But I prefer using Notability on my iPad.
+It allows me to store those notes more easily and it prevents my Bullet Journal of running out of pages quickly.&lt;/p&gt;
+
+&lt;h2 id=&quot;2-review-my-notes&quot;&gt;2. Review my notes&lt;/h2&gt;
+
+&lt;p&gt;Ok, so I takes notes in my journal (or with Notability) and that’s good.
+Taking notes of everything allows the mind to be free and focus on our work.
+But with all these ideas put together, how to find (or retrieve) the best ones?
+The ones that will allow me to build the best start-up in the world?&lt;/p&gt;
+
+&lt;p&gt;After one week or two, I get back to my notes and review them.
+This delay allows me to forget about my notes and rediscover what I have written.
+At this moment, I can decide if this idea is worthless (that occurs a lot with me) or if this note is important for me.
+If the though is important, I extract it from my notebook (or Notability) and write it down on a piece of paper.
+This piece of paper is then stored and categorized to be found later when needed.&lt;/p&gt;
+
+&lt;p&gt;This place where all the best ideas are stored is my &lt;strong&gt;commonplace book&lt;/strong&gt;.
+In my case, I use an Atoma notebook with detachable sheets.&lt;/p&gt;
+
+&lt;h2 id=&quot;3-create-something-from-my-notes&quot;&gt;3. Create something from my notes&lt;/h2&gt;
+
+&lt;p&gt;Here we are.
+My notes are securely stored and categorized and I can find them back whenever I want.
+But even with this all process, this is worthless if I don’t create something.&lt;/p&gt;
+
+&lt;p&gt;With my commonplace book, I can retrieve my notes and build something with them.
+That could be an article like this one or a start-up that will change the world, everything starts with a note.
+Apply what we learn allows us to remember more.
+Create and share your work with others is maybe the best way to learn.&lt;/p&gt;
+
+&lt;h1 id=&quot;final-words&quot;&gt;Final words&lt;/h1&gt;
+
+&lt;p&gt;I will start to apply this system (already did with this article) that I will document with follow-up articles.
+I think this can be usefull for people that, like me, look for the perfect note-taking system.&lt;/p&gt;</content><author><name></name></author><summary type="html">During my studies, I kept looking a the perfect note-taking method. I have tried a lot of them (mind-maps, Cornell, flash-card, …) but never have I been convinced by one of them.</summary></entry><entry><title type="html">How to emulate a webcam stream with Python3, OpenCV and v4l2loopback</title><link href="https://derwaan.com/blog/blog/2020/05/12/v4l2loopback-opencv.html" rel="alternate" type="text/html" title="How to emulate a webcam stream with Python3, OpenCV and v4l2loopback" /><published>2020-05-12T00:00:00+02:00</published><updated>2020-05-12T00:00:00+02:00</updated><id>https://derwaan.com/blog/blog/2020/05/12/v4l2loopback-opencv</id><content type="html" xml:base="https://derwaan.com/blog/blog/2020/05/12/v4l2loopback-opencv.html">&lt;p&gt;In this article, we are going to create a virtual device using v4l2loopback on which we are going to write frames with OpenCV.&lt;/p&gt;
 
 &lt;p&gt;This article assumes that Python3, pip3 and OpenCV are installed.
 The techniques and tools presented in this article were tested on Ubuntu 18.04.&lt;/p&gt;

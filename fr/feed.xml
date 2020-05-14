@@ -1,4 +1,88 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr"><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://derwaan.com/blog/blog/fr/feed.xml" rel="self" type="application/atom+xml" /><link href="https://derwaan.com/blog/blog/fr/" rel="alternate" type="text/html" hreflang="fr" /><updated>2020-05-12T11:43:40+02:00</updated><id>https://derwaan.com/blog/blog/fr/feed.xml</id><title type="html">Derwaan</title><subtitle>Embedded Software Engineer, Freelancer and IoT geek</subtitle><entry><title type="html">Mon addiction aux outils de productivité</title><link href="https://derwaan.com/blog/blog/fr/2018/11/21/addiction-outils.html" rel="alternate" type="text/html" title="Mon addiction aux outils de productivité" /><published>2018-11-21T00:00:00+01:00</published><updated>2018-11-21T00:00:00+01:00</updated><id>https://derwaan.com/blog/blog/fr/2018/11/21/addiction-outils</id><content type="html" xml:base="https://derwaan.com/blog/blog/fr/2018/11/21/addiction-outils.html">&lt;p&gt;Cela fait maintenant quelques jours que je me suis séparé de Vim, i3wm ou autres extensions ou outils de développements.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr"><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://derwaan.com/blog/blog/fr/feed.xml" rel="self" type="application/atom+xml" /><link href="https://derwaan.com/blog/blog/fr/" rel="alternate" type="text/html" hreflang="fr" /><updated>2020-05-14T15:37:27+02:00</updated><id>https://derwaan.com/blog/blog/fr/feed.xml</id><title type="html">Derwaan</title><subtitle>Embedded Software Engineer, Freelancer and IoT geek</subtitle><entry><title type="html">Mon expérience de prise de notes - Partie 1</title><link href="https://derwaan.com/blog/blog/fr/2020/05/14/note-taking-experiment-part-1.html" rel="alternate" type="text/html" title="Mon expérience de prise de notes - Partie 1" /><published>2020-05-14T00:00:00+02:00</published><updated>2020-05-14T00:00:00+02:00</updated><id>https://derwaan.com/blog/blog/fr/2020/05/14/note-taking-experiment-part-1</id><content type="html" xml:base="https://derwaan.com/blog/blog/fr/2020/05/14/note-taking-experiment-part-1.html">&lt;p&gt;J’ai pas arrêté de chercher la méthode &lt;em&gt;parfaite&lt;/em&gt; pour prendre des notes pendant mes études.
+J’ai essayé plusieurs techniques (mind-maps, Cornell, flash-cards, …) mais je n’ai jamais été convaincu par l’une ou l’autre de ces méthodes.&lt;/p&gt;
+
+&lt;p&gt;Maintenant que mes études sont terminées (pour le moment?), je me retrouve toujours avec cette envie de prendre note de tout mais sans avoir le cadre idéal pour.&lt;/p&gt;
+
+&lt;p&gt;Laissez-moi m’expliquer.
+Pendant mes études, le cadre était clair: prendre notes pendant les cours, réviser ses notes pendant le blocus et réussir ses examens (la dernière partie laissant souvent à désirer).
+Mais maintenant que ce beau cadre n’est plus, je me retrouve avec un paquet de notes que je ne sais pas comment organiser.
+Je prends note pendant les réunions, je prends note quand je travaille sur un bout de code compliqué, je prends note quand j’ai une idée incroyable pour une start-up, je prends note des livres que je trouve intéressants, etc…&lt;/p&gt;
+
+&lt;p&gt;Bref, je me retrouve avec un paquet de notes que si elles sont laissées à l’abandon, elles ne me serviront jamais (adieu idée de start-up qui vaut surement plusieurs millions).&lt;/p&gt;
+
+&lt;p&gt;J’ai donc décidé de mettre en place une petite expérience afin de trouver le système de prise de notes parfait.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;tl;dr&lt;/strong&gt; Je vais commencer à mettre en place un système de prise de notes en trois étapes (1. Capture les notes dans un journal; 2. Relire et catégoriser ces notes; 3. Créer quelque chose à partir de ces notes). Je détaillerai dans des prochains articles comment se déroule cette éxpérience de prise de notes.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;un-système-expérimental&quot;&gt;Un système expérimental&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/images/habit-of-taking-notes.jpg&quot; alt=&quot;Habit of taking notes&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ce système de prise de notes est divisé en plusieurs parties.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Tout d’abord la première partie qui consiste à capturer mes notes (soit dans mon journal, soit avec Notability)&lt;/li&gt;
+  &lt;li&gt;Ensuite, vient la partie de révisions de mes notes afin de mieux les assimiler et supprimer celles qui n’ont plus d’importance&lt;/li&gt;
+  &lt;li&gt;Enfin, la partie de création. Sans cette dernière étape, mes notes ne servent à rien.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;1a-noter-dans-un-journal&quot;&gt;1a. Noter dans un journal&lt;/h2&gt;
+
+&lt;p&gt;J’ai commencer à utiliser un Bullet Journal depuis maintenant quelques mois. Je note dans ce journal &lt;em&gt;presque&lt;/em&gt; tout: idées, réunions, tâches, …
+J’y stocke aussi les discussions intéressantes que j’ai pu avoir. Après une journée de travail, j’y note les informations importantes qui pourront m’être utiles pour les prochains jours.
+Mon objectif avec ce journal n’est pas d’avoir un truc joli à montrer sur Instagram. 
+Non, ce journal c’est pleins de notes qui n’ont de sens que pour moi.
+Mais au moins, je sais que tout ce dont j’ai besoin se trouve dans ce journal.
+Pas besoin de faire confiance à mon cerveau pour se rappeler de ce qui avait été dit en réunion ou de se rappeler de cette fameuse idée qui allait me faire gagner des millions.
+Tout ce trouve dans mon journal.&lt;/p&gt;
+
+&lt;p&gt;Pour explorer certaines idées plus en profondeur, j’hésite pas à prendre une page complète et à dessiner, faire une mind-maps ou tout autres moyens me permettant de libérer ma créativité.&lt;/p&gt;
+
+&lt;h2 id=&quot;1b-noter-avec-notability&quot;&gt;1b. Noter avec Notability&lt;/h2&gt;
+
+&lt;p&gt;Quand je lis un livre, je prends note directement dedans si je l’ai physiquement ou alors je surligne avec ma Kindle.
+Cela me permet d’être concentré sur ce que je lis.
+Une fois le livre terminé, je crée une note qui résume les idées principales du livres.
+Je ne recopie pas bêtement mes notes ou les parties du livres qui ont été surlignées.
+Je réécris les idées en utilisant mes propres mots afin de bien comprendre ce que le livre veut m’expliquer.&lt;/p&gt;
+
+&lt;p&gt;Ces notes, je pourrais les inscrire dans mon journal mais je préfère utiliser Notability sur iPad.
+D’une part, cela me permet de stocker de manière plus durable ces notes.
+D’autre part, cela évite de prendre beaucoup de pages dans mon journal.&lt;/p&gt;
+
+&lt;h2 id=&quot;2-revisiter-mes-notes&quot;&gt;2. Revisiter mes notes&lt;/h2&gt;
+
+&lt;p&gt;Ok, prendre notes de tout dans mon journal (ou sur Notability) c’est bien.
+Prendre note de tout ça permet de se vider la tête et rester concentrer sur notre travail.
+Mais avec toutes ces idées regroupées, comment trouver (ou retrouver) les idées intéressantes ?
+Celles qui vont me permettre de créer ma start-up à plusieurs millions.&lt;/p&gt;
+
+&lt;p&gt;J’attends donc entre une et deux semaines avant de retourner voir mes notes.
+Ce délai permet d’oublier ce que j’ai noter et redécouvrir ce que j’ai écris.
+À ce moment, je peux décider que ce que j’ai noter ne vaut absolument rien (c’est souvent le cas pour moi) ou bien que cette note est importante.
+Si l’information est importante, je l’extrais de mon journal pour l’écrire sur une petite fiche.
+Cette petite fiche va ensuite être stockée et catégorisée pour pouvoir être retrouvée plus tard.&lt;/p&gt;
+
+&lt;p&gt;L’endroit où se retrouve ces petites fiches, c’est mon &lt;strong&gt;commonplace book&lt;/strong&gt;.
+Dans mon cas, ce sont des carnets Atoma que je peux feuilleter pour retrouver mes idées.&lt;/p&gt;
+
+&lt;h2 id=&quot;3-créer-quelque-chose-à-partir-de-mes-notes&quot;&gt;3. Créer quelque chose à partir de mes notes&lt;/h2&gt;
+
+&lt;p&gt;Ça y est.
+Mes notes sont maintenant sécurisées et je peux y retourner quand je veux.
+Mais malgré tout ce processus, cela ne sert à rien si je ne crée rien.&lt;/p&gt;
+
+&lt;p&gt;Avec mes notes organisées dans mon commonplace book, je peux retourner les voir et commencer à construire quelque chose à partir de celles-ci.
+Que ce soit un article comme celui-ci ou une start-up qui va révolutionner le monde, tout commence par une note.
+Appliquer ce que l’on apprend permet d’encore plus assimiler ces informations.
+Créer et partager aux autres est peut-être la meilleure façon d’apprendre.&lt;/p&gt;
+
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+
+&lt;p&gt;Je vais donc commencer à mettre ce système en place (ce que j’ai déjà fait avec cet article) et je documenterai cette “expérience” aux travers d’autres articles sur mon blog.
+Je pense que cela sera enrichissant pour les gens qui, comme moi, chercher un système de prise de notes qui leur correspondent.&lt;/p&gt;</content><author><name></name></author><summary type="html">J’ai pas arrêté de chercher la méthode parfaite pour prendre des notes pendant mes études. J’ai essayé plusieurs techniques (mind-maps, Cornell, flash-cards, …) mais je n’ai jamais été convaincu par l’une ou l’autre de ces méthodes.</summary></entry><entry><title type="html">Mon addiction aux outils de productivité</title><link href="https://derwaan.com/blog/blog/fr/2018/11/21/addiction-outils.html" rel="alternate" type="text/html" title="Mon addiction aux outils de productivité" /><published>2018-11-21T00:00:00+01:00</published><updated>2018-11-21T00:00:00+01:00</updated><id>https://derwaan.com/blog/blog/fr/2018/11/21/addiction-outils</id><content type="html" xml:base="https://derwaan.com/blog/blog/fr/2018/11/21/addiction-outils.html">&lt;p&gt;Cela fait maintenant quelques jours que je me suis séparé de Vim, i3wm ou autres extensions ou outils de développements.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;La raison ? La productivité !&lt;/strong&gt;&lt;/p&gt;
