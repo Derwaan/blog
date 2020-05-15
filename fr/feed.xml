@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr"><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://derwaan.com/blog/blog/fr/feed.xml" rel="self" type="application/atom+xml" /><link href="https://derwaan.com/blog/blog/fr/" rel="alternate" type="text/html" hreflang="fr" /><updated>2020-05-14T15:37:27+02:00</updated><id>https://derwaan.com/blog/blog/fr/feed.xml</id><title type="html">Derwaan</title><subtitle>Embedded Software Engineer, Freelancer and IoT geek</subtitle><entry><title type="html">Mon expérience de prise de notes - Partie 1</title><link href="https://derwaan.com/blog/blog/fr/2020/05/14/note-taking-experiment-part-1.html" rel="alternate" type="text/html" title="Mon expérience de prise de notes - Partie 1" /><published>2020-05-14T00:00:00+02:00</published><updated>2020-05-14T00:00:00+02:00</updated><id>https://derwaan.com/blog/blog/fr/2020/05/14/note-taking-experiment-part-1</id><content type="html" xml:base="https://derwaan.com/blog/blog/fr/2020/05/14/note-taking-experiment-part-1.html">&lt;p&gt;J’ai pas arrêté de chercher la méthode &lt;em&gt;parfaite&lt;/em&gt; pour prendre des notes pendant mes études.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr"><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://derwaan.com/blog/blog/fr/feed.xml" rel="self" type="application/atom+xml" /><link href="https://derwaan.com/blog/blog/fr/" rel="alternate" type="text/html" hreflang="fr" /><updated>2020-05-15T11:17:50+02:00</updated><id>https://derwaan.com/blog/blog/fr/feed.xml</id><title type="html">Derwaan</title><subtitle>Embedded Software Engineer, Freelancer and IoT geek</subtitle><entry><title type="html">Mon expérience de prise de notes - Partie 1</title><link href="https://derwaan.com/blog/blog/fr/2020/05/14/note-taking-experiment-part-1.html" rel="alternate" type="text/html" title="Mon expérience de prise de notes - Partie 1" /><published>2020-05-14T00:00:00+02:00</published><updated>2020-05-14T00:00:00+02:00</updated><id>https://derwaan.com/blog/blog/fr/2020/05/14/note-taking-experiment-part-1</id><content type="html" xml:base="https://derwaan.com/blog/blog/fr/2020/05/14/note-taking-experiment-part-1.html">&lt;p&gt;J’ai pas arrêté de chercher la méthode &lt;em&gt;parfaite&lt;/em&gt; pour prendre des notes pendant mes études.
 J’ai essayé plusieurs techniques (mind-maps, Cornell, flash-cards, …) mais je n’ai jamais été convaincu par l’une ou l’autre de ces méthodes.&lt;/p&gt;
 
 &lt;p&gt;Maintenant que mes études sont terminées (pour le moment?), je me retrouve toujours avec cette envie de prendre note de tout mais sans avoir le cadre idéal pour.&lt;/p&gt;
@@ -44,8 +44,8 @@ Tout ce trouve dans mon journal.&lt;/p&gt;
 
 &lt;p&gt;Quand je lis un livre, je prends note directement dedans si je l’ai physiquement ou alors je surligne avec ma Kindle.
 Cela me permet d’être concentré sur ce que je lis.
-Une fois le livre terminé, je crée une note qui résume les idées principales du livres.
-Je ne recopie pas bêtement mes notes ou les parties du livres qui ont été surlignées.
+Une fois le livre terminé, je crée une note qui résume les idées principales du livre.
+Je ne recopie pas bêtement mes notes ou les parties du livre qui ont été surlignées.
 Je réécris les idées en utilisant mes propres mots afin de bien comprendre ce que le livre veut m’expliquer.&lt;/p&gt;
 
 &lt;p&gt;Ces notes, je pourrais les inscrire dans mon journal mais je préfère utiliser Notability sur iPad.
@@ -55,13 +55,13 @@ D’autre part, cela évite de prendre beaucoup de pages dans mon journal.&lt;/p
 &lt;h2 id=&quot;2-revisiter-mes-notes&quot;&gt;2. Revisiter mes notes&lt;/h2&gt;
 
 &lt;p&gt;Ok, prendre notes de tout dans mon journal (ou sur Notability) c’est bien.
-Prendre note de tout ça permet de se vider la tête et rester concentrer sur notre travail.
+Prendre note de tout ça permet de se vider la tête et rester concentré sur notre travail.
 Mais avec toutes ces idées regroupées, comment trouver (ou retrouver) les idées intéressantes ?
-Celles qui vont me permettre de créer ma start-up à plusieurs millions.&lt;/p&gt;
+Celles qui vont me permettre de créer ma start-up à plusieurs millions de dollars.&lt;/p&gt;
 
 &lt;p&gt;J’attends donc entre une et deux semaines avant de retourner voir mes notes.
-Ce délai permet d’oublier ce que j’ai noter et redécouvrir ce que j’ai écris.
-À ce moment, je peux décider que ce que j’ai noter ne vaut absolument rien (c’est souvent le cas pour moi) ou bien que cette note est importante.
+Ce délai permet d’oublier ce que j’ai noté et redécouvrir ce que j’ai écrit.
+À ce moment, je peux décider que ce que j’ai noté ne vaut absolument rien (c’est souvent le cas pour moi) ou bien que cette note est importante.
 Si l’information est importante, je l’extrais de mon journal pour l’écrire sur une petite fiche.
 Cette petite fiche va ensuite être stockée et catégorisée pour pouvoir être retrouvée plus tard.&lt;/p&gt;
 
@@ -82,7 +82,7 @@ Créer et partager aux autres est peut-être la meilleure façon d’apprendre.&
 &lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
 
 &lt;p&gt;Je vais donc commencer à mettre ce système en place (ce que j’ai déjà fait avec cet article) et je documenterai cette “expérience” aux travers d’autres articles sur mon blog.
-Je pense que cela sera enrichissant pour les gens qui, comme moi, chercher un système de prise de notes qui leur correspondent.&lt;/p&gt;</content><author><name></name></author><summary type="html">J’ai pas arrêté de chercher la méthode parfaite pour prendre des notes pendant mes études. J’ai essayé plusieurs techniques (mind-maps, Cornell, flash-cards, …) mais je n’ai jamais été convaincu par l’une ou l’autre de ces méthodes.</summary></entry><entry><title type="html">Mon addiction aux outils de productivité</title><link href="https://derwaan.com/blog/blog/fr/2018/11/21/addiction-outils.html" rel="alternate" type="text/html" title="Mon addiction aux outils de productivité" /><published>2018-11-21T00:00:00+01:00</published><updated>2018-11-21T00:00:00+01:00</updated><id>https://derwaan.com/blog/blog/fr/2018/11/21/addiction-outils</id><content type="html" xml:base="https://derwaan.com/blog/blog/fr/2018/11/21/addiction-outils.html">&lt;p&gt;Cela fait maintenant quelques jours que je me suis séparé de Vim, i3wm ou autres extensions ou outils de développements.&lt;/p&gt;
+Je pense que cela sera enrichissant pour les gens qui, comme moi, cherchent un système de prise de notes qui leur corresponde.&lt;/p&gt;</content><author><name></name></author><summary type="html">J’ai pas arrêté de chercher la méthode parfaite pour prendre des notes pendant mes études. J’ai essayé plusieurs techniques (mind-maps, Cornell, flash-cards, …) mais je n’ai jamais été convaincu par l’une ou l’autre de ces méthodes.</summary></entry><entry><title type="html">Mon addiction aux outils de productivité</title><link href="https://derwaan.com/blog/blog/fr/2018/11/21/addiction-outils.html" rel="alternate" type="text/html" title="Mon addiction aux outils de productivité" /><published>2018-11-21T00:00:00+01:00</published><updated>2018-11-21T00:00:00+01:00</updated><id>https://derwaan.com/blog/blog/fr/2018/11/21/addiction-outils</id><content type="html" xml:base="https://derwaan.com/blog/blog/fr/2018/11/21/addiction-outils.html">&lt;p&gt;Cela fait maintenant quelques jours que je me suis séparé de Vim, i3wm ou autres extensions ou outils de développements.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;La raison ? La productivité !&lt;/strong&gt;&lt;/p&gt;
