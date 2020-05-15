@@ -45,8 +45,8 @@ Pour explorer certaines idées plus en profondeur, j'hésite pas à prendre une 
 
 Quand je lis un livre, je prends note directement dedans si je l'ai physiquement ou alors je surligne avec ma Kindle.
 Cela me permet d'être concentré sur ce que je lis.
-Une fois le livre terminé, je crée une note qui résume les idées principales du livres.
-Je ne recopie pas bêtement mes notes ou les parties du livres qui ont été surlignées.
+Une fois le livre terminé, je crée une note qui résume les idées principales du livre.
+Je ne recopie pas bêtement mes notes ou les parties du livre qui ont été surlignées.
 Je réécris les idées en utilisant mes propres mots afin de bien comprendre ce que le livre veut m'expliquer.
 
 Ces notes, je pourrais les inscrire dans mon journal mais je préfère utiliser Notability sur iPad.
@@ -56,13 +56,13 @@ D'autre part, cela évite de prendre beaucoup de pages dans mon journal.
 ## 2. Revisiter mes notes
 
 Ok, prendre notes de tout dans mon journal (ou sur Notability) c'est bien.
-Prendre note de tout ça permet de se vider la tête et rester concentrer sur notre travail.
+Prendre note de tout ça permet de se vider la tête et rester concentré sur notre travail.
 Mais avec toutes ces idées regroupées, comment trouver (ou retrouver) les idées intéressantes ?
-Celles qui vont me permettre de créer ma start-up à plusieurs millions.
+Celles qui vont me permettre de créer ma start-up à plusieurs millions de dollars.
 
 J'attends donc entre une et deux semaines avant de retourner voir mes notes.
-Ce délai permet d'oublier ce que j'ai noter et redécouvrir ce que j'ai écris.
-À ce moment, je peux décider que ce que j'ai noter ne vaut absolument rien (c'est souvent le cas pour moi) ou bien que cette note est importante.
+Ce délai permet d'oublier ce que j'ai noté et redécouvrir ce que j'ai écrit.
+À ce moment, je peux décider que ce que j'ai noté ne vaut absolument rien (c'est souvent le cas pour moi) ou bien que cette note est importante.
 Si l'information est importante, je l'extrais de mon journal pour l'écrire sur une petite fiche.
 Cette petite fiche va ensuite être stockée et catégorisée pour pouvoir être retrouvée plus tard.
 
@@ -83,5 +83,5 @@ Créer et partager aux autres est peut-être la meilleure façon d'apprendre.
 # Conclusion
 
 Je vais donc commencer à mettre ce système en place (ce que j'ai déjà fait avec cet article) et je documenterai cette "expérience" aux travers d'autres articles sur mon blog.
-Je pense que cela sera enrichissant pour les gens qui, comme moi, chercher un système de prise de notes qui leur correspondent.
+Je pense que cela sera enrichissant pour les gens qui, comme moi, cherchent un système de prise de notes qui leur corresponde.
 
