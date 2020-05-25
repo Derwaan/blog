@@ -138,7 +138,7 @@ Cette méthode est assez simple et linéaire mais plusieurs critiques peuvent ê
 > Écrire au clavier sur un ordinateur est quand même bien plus efficace que d'écrire sur du papier. Pourquoi se fatiguer à écrire à la main ?
 
 Le fait de prendre le temps d'écrire à la main permet de ralentir et de choisir en pleine conscience les informations que l'on souhaite enregistrer.
-En écrivant rapidement du bout de ses doigts sur son téléphone ou sur l'ordinateur, on a tendance à stocker beaucoup de notes sans jamais prendre le temps d'bbbb'y retourner plus tard.
+En écrivant rapidement du bout de ses doigts sur son téléphone ou sur l'ordinateur, on a tendance à stocker beaucoup de notes sans jamais prendre le temps d'y retourner plus tard.
 Le format papier, de plus, permet d'être beaucoup plus libre.
 On peut dessiner, faire des schémas, tracer des flèches entre différentes portions de la page, etc...
 
