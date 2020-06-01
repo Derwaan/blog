@@ -5,18 +5,18 @@ title: Mon expérience de prise de notes - Partie 2
 
 Me voilà de retour pour la deuxième partie de cette expérience sur la prise de notes !
 Et cette fois-ci, je vais parler plus en détail de "comment prendre notes de tout".
-On va parler de ma méthodologie pour accumuler des informations à partir des vidéos, livres, podcasts, etc. que je consomme tout les jours.
+On va parler de ma méthodologie pour accumuler des informations à partir des vidéos, livres, podcasts, etc. que je consomme tous les jours.
 
 # Ma méthode
 
-Ma méthode se compose en plusieurs notes:
+Ma méthode se compose de plusieurs notes:
 
 - **Focus note** pour être actif et concentré
 - **Journal note** pour assimiler et m'approprier les informations
 - **Carte à idée** pour extraire les informations
 - **Note permanente** pour stocker les informations de manière définitive
 
-> **tl;dr** Je prends une première fois note pendant que je consumme du contenu (cours, vidéo, livre, ...).
+> **tl;dr** Je prends une première fois note pendant que je consomme du contenu (cours, vidéo, livre, ...).
 > Je transfère cette note dans mon journal afin de bien l'assimiler.
 > J'extrais enfin les informations sur des cartes pour, plus tard, les enregistrer dans une base de données personelles.
 
@@ -29,7 +29,7 @@ Ma méthode se compose en plusieurs notes:
 J'aime bien écouter, lire et apprendre de tout.
 Du coup, je me retrouve à consommer des podcasts, des articles, des livres et des vidéos de tout genre.
 Au final, si je ne prends pas note **activement** pendant mon écoute (ou ma lecture) je sais que je vais perdre toutes ces informations.
-Je me force donc dès que je regarde une vidéo intéressante ou que je lis un livre pleins de ressources de prendre une *focus note*.
+Je me force donc dès que je regarde une vidéo intéressante ou que je lis un livre plein de ressources de prendre une *focus note*.
 De cette façon, je suis bien plus concentré et conscient des informations que j'accumule.
 Cette note ne doit pas être jolie ou parfaite, son unique but est de me forcer à rester concentré.
 
@@ -53,8 +53,8 @@ Mais à partir de celle-ci, je peut me rapeller des informations importantes.
 Lorsque je lis un livre, soit je l'ai en version physique soit je l'ai sous format Kindle.
 
 Avec la Kindle, c'est plutôt simple, je surligne simplement les passages que je trouve intéressants.
-Cela me force à prendre le temps et à réfléchir à quelles parties du chapitre que je suis en train de lire sont à surligner.
-Si je n'ai rien surligner depuis un moment, c'est sans doute que j'ai commencé à lire de manière passive.
+Cela me force à prendre le temps et réfléchir à quelles parties du chapitre sont à surligner.
+Si je n'ai rien surligné depuis un moment, c'est sans doute que j'ai commencé à lire de manière passive.
 Quand je m'en rends compte, je reviens quelques pages en arrière pour voir si je n'ai pas loupé des informations importantes.
 
 Avec un livre physique, je note directement dans la marge.
@@ -62,12 +62,12 @@ Je souligne les passages importants et les annote juste à coté.
 Je trouve ça beaucoup plus actif qu'avec la Kindle.
 
 Du coup, pourquoi est-ce que je continue à acheter des livres au format Kindle ?
-Les livres que j'achète au format physique sont en général des manuels techniques qui requiert beaucoup de concentrations pour être compris.
-Les livres au format Kindle que je possède sont plus des livres sur le développement personnel que je peux lire rapidement et extraire facilement les informations avec les passsages surlignés.
+Les livres que j'achète au format physique sont en général des manuels techniques qui requièrent beaucoup de concentration pour être compris.
+Les livres au format Kindle que je possède sont plus des livres sur le développement personnel que je peux lire rapidement et dont je peux extraire facilement les informations avec les passsages surlignés.
 
 ### Pour un podcast, des idées
 
-J'aime bien écouter mes podcasts pendant une ballade.
+J'aime bien écouter mes podcasts pendant une balade.
 Du coup, je ne prends jamais note activement pendant un podcast.
 À la place, dès qu'un passage résonne avec moi, je sors mon téléphone et rajoute une simple note.
 De la même façon, dès que j'ai une idée et que je n'ai pas mon journal avec moi, je rajoute une note dans mon téléphone.
@@ -95,11 +95,11 @@ On ne sait jamais que je retombe sur un problème du même genre.
 
 Les réunions sont peut-être la seule exception à cette méthode.
 Je prends toujours note mais directement dans mon journal.
-L'effort de recopier les informations une deuxième fois est trop elevé par rapport aux bénéfices que cela peut apporter.
+L'effort de recopier les informations une deuxième fois est trop élevé par rapport aux bénéfices que cela peut apporter.
 
 ## Journal note
 
-À la fin de la journée, je repasse mes *focus note* en revue.
+À la fin de la journée, je repasse mes *focus notes* en revue.
 Les petites notes que j'ai prises dans mon téléphone sont transférées dans mon journal si elles sont encore pertinentes.
 Pour les grosses notes que j'ai prises sur Notability ou dans un livre, je les résume au moyen d'une **sketchnote** aussi dans mon journal.
 
@@ -107,7 +107,7 @@ Ici, un exemple de la note prise sur la vidéo de Kurzgesagt:
 
 ![Why are you alive? - Sketchnote]({{site.baseurl_root}}/images/why-are-you-alive-sketch.jpg)
 
-En général, je n'ai pas beaucoup de notes à transferer et cela ne me prends pas plus d'une heure à faire.
+En général, je n'ai pas beaucoup de notes à transferer et cela ne me prend pas plus d'une heure à faire.
 Je trouve que c'est une très bonne habitude à prendre parce que cela permet de bien mieux intégrer les informations acquises durant la journée.
 Cela prend du temps et ça demande des efforts mais c'est une bonne chose: cela permet d'éliminer les informations inutiles et de ne se concentrer que sur l'essentiel.
 De plus, il m'arrive souvent pendant cette étape d'avoir de nouvelles idées qui émergent.
@@ -125,7 +125,7 @@ Le fait d'avoir toutes mes notes à un seul endroit (mon journal ici) me permet 
 ## Carte à idée et note permanente
 
 Dans mon système, à la fin de chaque semaine, j'extrais les idées et informations importantes de mon journal pour les écrire sur des petites cartes.
-Je suis en train de le faire actuellement (et j'ai une centaine de cartes pour le moment) mais je ne suis pas encore bien sur d'y voir un intérêt.
+Je suis en train de le faire actuellement (et j'ai une centaine de cartes pour le moment) mais je ne suis pas encore bien sûr d'y voir un intérêt.
 Le fait de reparcourir mon journal pour y relire mes notes régulièrement est déjà une bonne habitude.
 Donc, en attendant d'expérimenter plus en profondeur cette technique, je ne vais pas l'aborder plus longtemps dans cet article.
 
@@ -163,5 +163,5 @@ Cela permet de forger ce savoir dans notre cerveau et aussi de bien l'assimiler.
 
 Voilà qui conclut cet article (un poil long?) sur ma méthode de prise de note **actuelle**.
 Je continue toujours à expérimenter et à chercher la méthode qui me convient parfaitement.
-J'espère secrètement que cette recherche menera un jour à un vrai système efficace.
+J'espère secrètement que cette recherche mènera un jour à un vrai système efficace.
 
