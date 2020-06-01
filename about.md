@@ -1,7 +1,7 @@
 ---
 layout: page
-title: titles.about
+title: À propos
 permalink: /about/
 ---
 
-{% translate_file _pages/about.md %}
+En cours de travaux...

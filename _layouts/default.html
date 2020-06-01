@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>
-      {% if page.title %}{% t page.title %} – {% endif %}{{ site.name }} – {{
+      {% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{
       site.description }}
     </title>
 
@@ -44,14 +44,7 @@
 
           <nav>
             <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">{% t titles.about %}</a>
-            {% if site.lang == "en" %} {% capture link_fr %}{{ site.baseurl_root
-            }}/fr{{ page.url}}{% endcapture %}
-            <a href="{{ link_fr }}">{% t flags.fr %}</a>
-            {% elsif site.lang == "fr" %} {% capture link_en %}{{
-            site.baseurl_root }}{{ page.url }}{% endcapture %}
-            <a href="{{ link_en }}">{% t flags.en %}</a>
-            {% endif %}
+            <a href="{{ site.baseurl }}/about">À propos</a>
           </nav>
         </header>
       </div>

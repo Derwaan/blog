@@ -44,10 +44,7 @@ twitter_username: derwaan
 github_username:  derwaan
 sass:
   style: :compressed # You might prefer to minify using :compressed
-languages: ["en", "fr"]
-exclude_from_localizations: ["javascript", "images", "css"]
 plugins:
-  - jekyll-multiple-languages-plugin
   - jekyll-seo-tag
 
 # Exclude from processing.
