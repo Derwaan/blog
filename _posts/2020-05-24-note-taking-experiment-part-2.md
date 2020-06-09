@@ -7,6 +7,8 @@ Me voilà de retour pour la deuxième partie de cette expérience sur la prise d
 Et cette fois-ci, je vais parler plus en détail de "comment prendre notes de tout".
 On va parler de ma méthodologie pour accumuler des informations à partir des vidéos, livres, podcasts, etc. que je consomme tous les jours.
 
+Si vous ne l'avez pas encore fait, je vous recommande de lire la [partie 1]({{site.baseurl}}/2020/05/14/note-taking-experiment-part-1) de cette série.
+
 # Ma méthode
 
 Ma méthode se compose de plusieurs notes:
@@ -164,4 +166,6 @@ Cela permet de forger ce savoir dans notre cerveau et aussi de bien l'assimiler.
 Voilà qui conclut cet article (un poil long?) sur ma méthode de prise de note **actuelle**.
 Je continue toujours à expérimenter et à chercher la méthode qui me convient parfaitement.
 J'espère secrètement que cette recherche mènera un jour à un vrai système efficace.
+
+La [partie 3]({{site.baseurl}}/2020/06/09/note-taking-experiment-part-3) est disponible.
 

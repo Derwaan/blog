@@ -85,3 +85,5 @@ Créer et partager aux autres est peut-être la meilleure façon d'apprendre.
 Je vais donc commencer à mettre ce système en place (ce que j'ai déjà fait avec cet article) et je documenterai cette "expérience" aux travers d'autres articles sur mon blog.
 Je pense que cela sera enrichissant pour les gens qui, comme moi, cherchent un système de prise de notes qui leur corresponde.
 
+La [partie 2]({{site.baseurl}}/2020/05/24/note-taking-experiment-part-2) ainsi que la [partie 3]({{site.baseurl}}/2020/06/09/note-taking-experiment-part-3) sont disponibles.
+
