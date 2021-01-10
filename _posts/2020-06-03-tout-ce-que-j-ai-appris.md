@@ -43,7 +43,7 @@ Cette notion rejoint ce que dit Nathaniel Drew dans sa vidéo [How I Learn Thing
   C'est la meilleure façon d'apprendre tout simplement.
 
 - Dans la vidéo [Transforming Code into Beautiful, Idiomatic Python](https://www.youtube.com/watch?v=OSGv2VnC0go), Raymond Hettinger nous apprend à écrire du code Python bien plus performant.
-La clé derrière tout ça est de bien faire attention à utiliser des structures iterables.
+La clé derrière tout ça est de bien faire attention à utiliser des structures itérables.
 Par exemple:
 ```python
 for i in range(len(l)):
@@ -123,7 +123,7 @@ Par exemple, on pourrait dire que pour réduire les risques de cancer il suffit 
 
 - Le time boxing est une technique de productivité très utilisée.
 Elle consiste à se fixer une période de temps précise pour une tâche et de s'y tenir.
-Cela permet de rajouter une deadline personnelle et de rester concentrer sur son travail.
+Cela permet de rajouter une deadline personnelle et de rester concentré sur son travail.
 Cela rejoint la [loi de Parkinson](https://fr.wikipedia.org/wiki/Loi_de_Parkinson) selon laquelle un employé prendra toujours tout le temps qui lui est alloué pour faire une tâche même si celle-ci aurait pu être terminée plus rapidement.
 
 - Dans sa vidéo [How to Remember What You Read | How I Digest Books (Plus: A Few Recent Favorite Books)](https://www.youtube.com/watch?v=YQOrqAKKcUQ), Tim Ferris explique sa méthode pour assimiler tout ce qu'il lit.
@@ -141,7 +141,7 @@ Tandis qu'en ciblant une petit niche de personnes (semblables à nous), on sait 
 
 - Le principe de Netflix.
 Netflix ne diffuse pas de programmes de sport car une fois la saison terminée plus personne ne reviendra voir ces épisodes.
-À l'inverse, Netflix diffuse des séries qui restent intéressantes à regarder peut importe la période.
+À l'inverse, Netflix diffuse des séries qui restent intéressantes à regarder peu importe la période.
 Ce principe peut s'appliquer à tout créateur de contenu.
 Créer un article, une vidéo, un podcast qui garde son intérêt même bien plus tard que sa date de diffusion.
 
