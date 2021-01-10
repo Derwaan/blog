@@ -35,7 +35,7 @@ Je me force donc dès que je regarde une vidéo intéressante ou que je lis un l
 De cette façon, je suis bien plus concentré et conscient des informations que j'accumule.
 Cette note ne doit pas être jolie ou parfaite, son unique but est de me forcer à rester concentré.
 
-Après avoir écrit la note, je la repasse en revue afin de rajouter des informations que je n'ai pas eu le temps de noter ou peaufiner certains détails.
+Après avoir écrit la note, je la passe en revue afin de rajouter des informations que je n'ai pas eu le temps de noter ou peaufiner certains détails.
 
 ### Pour une vidéo, une conférence, un cours
 
@@ -48,13 +48,13 @@ Voilà un exemple de note prise pour une vidéo de Kurzgesagt (uniquement la pre
 ![Why are you alive?]({{site.baseurl}}/images/why-are-you-alive.jpg)
 
 Il n'y a sans doute que moi qui peut comprendre cette note.
-Mais à partir de celle-ci, je peut me rapeller des informations importantes.
+Mais à partir de celle-ci, je peut me rappeler des informations importantes.
 
 ### Pour un livre
 
 Lorsque je lis un livre, soit je l'ai en version physique soit je l'ai sous format Kindle.
 
-Avec la Kindle, c'est plutôt simple, je surligne simplement les passages que je trouve intéressants.
+Avec le Kindle, c'est plutôt simple, je surligne simplement les passages que je trouve intéressants.
 Cela me force à prendre le temps et réfléchir à quelles parties du chapitre sont à surligner.
 Si je n'ai rien surligné depuis un moment, c'est sans doute que j'ai commencé à lire de manière passive.
 Quand je m'en rends compte, je reviens quelques pages en arrière pour voir si je n'ai pas loupé des informations importantes.
@@ -65,7 +65,7 @@ Je trouve ça beaucoup plus actif qu'avec la Kindle.
 
 Du coup, pourquoi est-ce que je continue à acheter des livres au format Kindle ?
 Les livres que j'achète au format physique sont en général des manuels techniques qui requièrent beaucoup de concentration pour être compris.
-Les livres au format Kindle que je possède sont plus des livres sur le développement personnel que je peux lire rapidement et dont je peux extraire facilement les informations avec les passsages surlignés.
+Les livres au format Kindle que je possède sont plus des livres sur le développement personnel que je peux lire rapidement et dont je peux extraire facilement les informations avec les passages surlignés.
 
 ### Pour un podcast, des idées
 
@@ -101,7 +101,7 @@ L'effort de recopier les informations une deuxième fois est trop élevé par ra
 
 ## Journal note
 
-À la fin de la journée, je repasse mes *focus notes* en revue.
+À la fin de la journée, je passe mes *focus notes* en revue.
 Les petites notes que j'ai prises dans mon téléphone sont transférées dans mon journal si elles sont encore pertinentes.
 Pour les grosses notes que j'ai prises sur Notability ou dans un livre, je les résume au moyen d'une **sketchnote** aussi dans mon journal.
 
@@ -109,7 +109,7 @@ Ici, un exemple de la note prise sur la vidéo de Kurzgesagt:
 
 ![Why are you alive? - Sketchnote]({{site.baseurl}}/images/why-are-you-alive-sketch.jpg)
 
-En général, je n'ai pas beaucoup de notes à transferer et cela ne me prend pas plus d'une heure à faire.
+En général, je n'ai pas beaucoup de notes à transférer et cela ne me prend pas plus d'une heure à faire.
 Je trouve que c'est une très bonne habitude à prendre parce que cela permet de bien mieux intégrer les informations acquises durant la journée.
 Cela prend du temps et ça demande des efforts mais c'est une bonne chose: cela permet d'éliminer les informations inutiles et de ne se concentrer que sur l'essentiel.
 De plus, il m'arrive souvent pendant cette étape d'avoir de nouvelles idées qui émergent.
@@ -146,15 +146,15 @@ On peut dessiner, faire des schémas, tracer des flèches entre différentes por
 
 ## Pourquoi utiliser du papier ?
 
-> Alors que je prends déjà une partie de mes notes avec mon iPad, pourquoi continuer un utiliser un journal papier ?
+> Alors que je prends déjà une partie de mes notes avec mon iPad, pourquoi continuer à utiliser un journal papier ?
 
-Je trouve tout simplement que le papier a encore beaucoup d'avantage comparé au format numérique.
+Je trouve tout simplement que le papier a encore beaucoup d'avantages comparé au format numérique.
 La sensation d'écrire sur du papier est bien plus agréable que d'écrire sur un iPad (ou sur le reMarkable par ailleurs).
 De plus, pouvoir feuilleter son journal et retrouver rapidement des informations en tournant des pages est bien plus agréable que scroller sur une tablette.
 
 ## Pourquoi prendre plusieurs notes de la même information ?
 
-> J'ai déjà pris une première fois note avec mes *focus notes* alors pourquoi transfèrer ces notes dans mon journal ?
+> J'ai déjà pris une première fois note avec mes *focus notes* alors pourquoi transférer ces notes dans mon journal ?
 
 Je prends le temps de réécrire les informations importantes dans mon journal car cela me permet de mieux les comprendre et les assimiler.
 De plus, les informations inutiles ne sont pas recopiées et seul l'essentiel se retrouve dans mon carnet.
@@ -163,7 +163,7 @@ Cela permet de forger ce savoir dans notre cerveau et aussi de bien l'assimiler.
 
 # Conclusion
 
-Voilà qui conclut cet article (un poil long?) sur ma méthode de prise de note **actuelle**.
+Voilà qui conclut cet article (un poil long?) sur ma méthode de prise de notes **actuelle**.
 Je continue toujours à expérimenter et à chercher la méthode qui me convient parfaitement.
 J'espère secrètement que cette recherche mènera un jour à un vrai système efficace.
 
