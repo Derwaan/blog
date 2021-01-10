@@ -13,11 +13,11 @@ Pendant mes études, le cadre était clair: prendre notes pendant les cours, ré
 Mais maintenant que ce beau cadre n'est plus, je me retrouve avec un paquet de notes que je ne sais pas comment organiser.
 Je prends note pendant les réunions, je prends note quand je travaille sur un bout de code compliqué, je prends note quand j'ai une idée incroyable pour une start-up, je prends note des livres que je trouve intéressants, etc...
 
-Bref, je me retrouve avec un paquet de notes que si elles sont laissées à l'abandon, elles ne me serviront jamais (adieu idée de start-up qui vaut surement plusieurs millions).
+Bref, je me retrouve avec un paquet de notes que si elles sont laissées à l'abandon, ne me serviront jamais (adieu idée de start-up qui vaut surement plusieurs millions).
 
 J'ai donc décidé de mettre en place une petite expérience afin de trouver le système de prise de notes parfait.
 
-> **tl;dr** Je vais commencer à mettre en place un système de prise de notes en trois étapes (1. Capture les notes dans un journal; 2. Relire et catégoriser ces notes; 3. Créer quelque chose à partir de ces notes). Je détaillerai dans des prochains articles comment se déroule cette éxpérience de prise de notes.
+> **tl;dr** Je vais commencer à mettre en place un système de prise de notes en trois étapes (1. Capturer les notes dans un journal; 2. Relire et catégoriser ces notes; 3. Créer quelque chose à partir de ces notes). Je détaillerai dans des prochains articles comment se déroule cette éxpérience de prise de notes.
 
 # Un système expérimental
 
@@ -31,15 +31,15 @@ Ce système de prise de notes est divisé en plusieurs parties.
 
 ## 1a. Noter dans un journal
 
-J'ai commencer à utiliser un Bullet Journal depuis maintenant quelques mois. Je note dans ce journal *presque* tout: idées, réunions, tâches, ...
+J'ai commencé à utiliser un Bullet Journal depuis maintenant quelques mois. Je note dans ce journal *presque* tout: idées, réunions, tâches, ...
 J'y stocke aussi les discussions intéressantes que j'ai pu avoir. Après une journée de travail, j'y note les informations importantes qui pourront m'être utiles pour les prochains jours.
 Mon objectif avec ce journal n'est pas d'avoir un truc joli à montrer sur Instagram. 
-Non, ce journal c'est pleins de notes qui n'ont de sens que pour moi.
+Non, ce journal c'est plein de notes qui n'ont de sens que pour moi.
 Mais au moins, je sais que tout ce dont j'ai besoin se trouve dans ce journal.
 Pas besoin de faire confiance à mon cerveau pour se rappeler de ce qui avait été dit en réunion ou de se rappeler de cette fameuse idée qui allait me faire gagner des millions.
-Tout ce trouve dans mon journal.
+Tout se trouve dans mon journal.
 
-Pour explorer certaines idées plus en profondeur, j'hésite pas à prendre une page complète et à dessiner, faire une mind-maps ou tout autres moyens me permettant de libérer ma créativité.
+Pour explorer certaines idées plus en profondeur, je n'hésite pas à prendre une page complète et à dessiner, faire une mind-map ou tout autre moyen me permettant de libérer ma créativité.
 
 ## 1b. Noter avec Notability
 
@@ -55,7 +55,7 @@ D'autre part, cela évite de prendre beaucoup de pages dans mon journal.
 
 ## 2. Revisiter mes notes
 
-Ok, prendre notes de tout dans mon journal (ou sur Notability) c'est bien.
+Ok, prendre note de tout dans mon journal (ou sur Notability) c'est bien.
 Prendre note de tout ça permet de se vider la tête et rester concentré sur notre travail.
 Mais avec toutes ces idées regroupées, comment trouver (ou retrouver) les idées intéressantes ?
 Celles qui vont me permettre de créer ma start-up à plusieurs millions de dollars.
@@ -83,7 +83,7 @@ Créer et partager aux autres est peut-être la meilleure façon d'apprendre.
 # Conclusion
 
 Je vais donc commencer à mettre ce système en place (ce que j'ai déjà fait avec cet article) et je documenterai cette "expérience" aux travers d'autres articles sur mon blog.
-Je pense que cela sera enrichissant pour les gens qui, comme moi, cherchent un système de prise de notes qui leur corresponde.
+Je pense que cela sera enrichissant pour les gens qui, comme moi, cherchent un système de prise de notes qui leur correspond.
 
 La [partie 2]({{site.baseurl}}/2020/05/24/note-taking-experiment-part-2) ainsi que la [partie 3]({{site.baseurl}}/2020/06/09/note-taking-experiment-part-3) sont disponibles.
 
